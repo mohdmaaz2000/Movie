@@ -32,7 +32,54 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  margin: 4px 2px;
+  padding: 3px;
+}
+
+.container-box {
+  width: 80%;
+  margin: auto;
+  border: 1.5px solid black;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  margin: 5px;
+}
+
+.parent img {
+  width: 40%;
+  height: auto;
+}
+
+.container-box div {
+  font-size: 20px;
+  margin: 15px;
+  display: block;
+  width: 70%;
+  margin-left: 24px;
+}
+
+.my-btn {
+  display: table;
+  font-size: 20px;
+  padding: 6px;
+  margin: 5px auto;
 }
