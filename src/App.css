@@ -51,6 +51,7 @@
 }
 
 .container-box {
+  border-radius: 8px;
   width: 80%;
   margin: auto;
   border: 1.5px solid black;
@@ -82,4 +83,19 @@
   font-size: 20px;
   padding: 6px;
   margin: 5px auto;
+  margin-bottom: 5px;
+}
+
+.formContainer
+{
+  border: 1.5px solid black;
+  border-radius: 8px;
+  width: 80%;
+  margin: auto;
+}
+
+.formContainer form div
+{
+  padding: 5px;
+  margin : 3px 8px;
 }

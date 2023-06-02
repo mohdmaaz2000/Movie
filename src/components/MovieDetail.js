@@ -40,7 +40,7 @@ export default function MovieDetail() {
                     <b>Summary -</b>  <p style={{ width: '127%', display: 'block' }} dangerouslySetInnerHTML={{ __html: data.show.summary }} />
                 </div>
 
-                <a href={data.show.url} rel="noreferrer" target="_blank" style={{ display: 'table', margin: 'auto' }} className=" btn btn-sm btn-dark my-btn">Read More about Movie</a>
+                <a href={data.show.url} rel="noreferrer" target="_blank"  className="btn btn-sm btn-dark my-btn">Read More about Movie</a>
             </div>
 
                 <Form data={data} />

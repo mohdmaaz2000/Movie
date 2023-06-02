@@ -3,7 +3,6 @@ import Item from './Item';
 
 
 export default function Movielist() {
-
     const [movies, setMovies] = useState([]);
 
     const fetchMovies = async (movies) => {
@@ -18,6 +17,7 @@ export default function Movielist() {
 
     return (
         <>
+
             <h1 className='mb-3 mx-3' style={{ textAlign: 'center', marginTop: '1rem' }}>Movies </h1>
 
             <div className="container">
@@ -25,7 +25,7 @@ export default function Movielist() {
                     movies.map((element) => {
                         return (
                             <div key={element.score} className='col-md-4 my-3'>
-                                <Item data={element}/>
+                                <Item data={element} />
                             </div>
                         )
                     })
